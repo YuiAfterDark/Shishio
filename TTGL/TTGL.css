@@ -1,6 +1,8 @@
 /*
 Tengen Toppa Gurren Lagann
 by erlbaum & Shishio-kun
+Modified by Valerio Lyndon
+Last update: 2023-05-26
 */
 
 @\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
@@ -116,6 +118,7 @@ margin-bottom: 0;
 position: fixed;
 width: 100%;
 z-index: 50;
+pointer-events: none;
 }
 
 /*
