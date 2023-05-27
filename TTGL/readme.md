@@ -1,5 +1,7 @@
 # Tengen Toppa Gurren Lagann
 
+![](gallery/demo ptw.jpg)
+
 ## Info
 
 A remix of "Dark Style" by Erlbaum.
