@@ -1,0 +1,242 @@
+/*
+MAIN BACKGROUND BEHIND YOKO
+*/
+body {
+background-attachment: fixed;
+background-color: black;
+background-image: url("http://i45.tinypic.com/1j3rb9.jpg");
+background-position: right top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*
+YOKO RENDERS
+*/
+.header_cw {
+background-image: url("http://i.imgur.com/5IStHhf.png");
+background-attachment: fixed;
+background-clip: border-box;
+background-color: transparent;
+background-origin: padding-box;
+background-position: right top;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 1200px;
+position: fixed;
+right: 0;
+top: 0px;
+width: 2000px;
+z-index: -1;
+}
+.header_completed {
+background: url("http://i.imgur.com/vqakXv9.png") no-repeat fixed right top transparent;
+background-attachment: fixed;
+background-clip: border-box;
+background-color: transparent;
+background-origin: padding-box;
+background-position: right top;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 1200px;
+position: fixed;
+right: 0;
+top: 0px;
+width: 2000px;
+z-index: -1;
+}
+.header_onhold {
+background-image: url("http://i.imgur.com/1dr3rKg.png");
+background-attachment: fixed;
+background-clip: border-box;
+background-color: transparent;
+background-origin: padding-box;
+background-position: right top;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 1200px;
+position: fixed;
+right: 0;
+top: 0px;
+width: 2000px;
+z-index: -1;
+}
+.header_dropped {
+background: url("http://i.imgur.com/G5Vvcvi.png") no-repeat fixed right top transparent;
+background-attachment: fixed;
+background-clip: border-box;
+background-color: transparent;
+background-origin: padding-box;
+background-position: right top;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 1200px;
+position: fixed;
+right: 0;
+top: 0px;
+width: 2000px;
+z-index: -1;
+}
+.header_ptw {
+background: url("http://i.imgur.com/a28LxjP.png") no-repeat fixed right bottom transparent;
+background-attachment: fixed;
+background-clip: border-box;
+background-color: transparent;
+background-origin: padding-box;
+background-position: right top;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 1200px;
+position: fixed;
+right: 0;
+top: 0px;
+width: 2000px;
+z-index: -1;
+}
+
+/*
+BOTTOM FADE
+*/
+#inlineContent {
+background-image: url("http://i39.tinypic.com/2exr03p.png");
+background-position: center center;
+background-repeat: repeat-x;
+bottom: 0;
+display: block !important;
+height: 80px;
+left: 0;
+margin-bottom: 0;
+position: fixed;
+width: 100%;
+z-index: 50;
+}
+
+/*
+FONTS
+*/
+.animetitle, .animetitle:visited {
+color: AliceBlue;
+font-family: Lucida Console,Arial;
+font-size: 15px;
+}
+.td1, .td2, a, a:visited, .category_totals, .table_header, #grand_totals, #copyright {
+color: aliceBlue;
+font-family: arial;
+}
+.status_selected a {
+color: white;
+}
+.status_not_selected a {
+color: white;
+}
+
+/*
+BACKGROUND COLOR BEHIND ROWS AND LIST TABLE
+*/
+
+.category_totals, .td1, .td2, #grand_totals, #copyright, .category_totals {
+background-color: rgba(5, 5, 5, 0.2);
+}
+
+
+.td1, .td2 {
+padding-top: 8px;
+}
+
+/*
+OTHER CODES
+*/
+.td2 {
+background-color: transparent;
+padding: 4px;
+}
+.td1:hover, .td2:hover {
+}
+.header_title {
+background-color: #282222;
+color: white;
+font-family: Tahoma,Arial;
+font-size: 48px;
+}
+.table_header {
+background-color: #282222;
+}
+
+#list_surround {
+	width: 650px;
+}
+#list_surround {
+left: 20px !important;
+position: absolute !important;
+}
+a:hover, a:visited:hover {
+color: coral;
+text-decoration: underline;
+}
+.category_totals, .td1, .td2, #grand_totals, #copyright {
+background-image: url("");
+border-width: 0;
+padding: 0;
+}
+.status_selected {
+background-color: windowframe;
+color: white;
+padding: 8px;
+text-decoration: blink;
+}
+.status_not_selected {
+background-color: #282222;
+color: white;
+padding: 6px;
+}
+.thickbox {
+color: cyan;
+font-family: fantasy;
+font-size: 12px;
+}
+.header_title {
+height: 55px;
+padding: 4px;
+padding-bottom: 0;
+
+}
+.table_header {
+border-width: 0;
+font-weight: normal;
+padding-right: 3px;
+}
+.category_totals {
+height: 30px;
+}
+#copyright, #grand_totals {
+margin: 0 auto;
+text-align: center;
+}
+.td1:hover, .td2:hover {
+background: url("http://i42.tinypic.com/snktjs.png") repeat scroll 0 0 transparent;
+}
+.status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+background: none repeat scroll 0 0 tan;
+display: none;
+}
+
+/*
+TOP MENU BAR BACKGROUND
+*/
+#mal_control_strip
+{
+background: url(http://img15.imageshack.us/img15/228/frame6518.png) fixed top left !important;
+}
+/*
+CUSTOM CURSOR
+*/
+* {
+cursor: url("http://i43.tinypic.com/2r5uhsl.jpg") 1 2, auto;
+}
+
+#mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
+border-right: 0 none !important;
+}
+#copyright:after {
+content: " Custom CSS by Erlbaum. Edits and backgrounds by Shishio-kun. Google 'Shishio's Custom Lists' for more designs and info.";
+}
