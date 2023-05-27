@@ -6,7 +6,7 @@
 
 A remix of "Dark Style" by Erlbaum.
 
-### Usage INotes
+### Usage Notes
 
 Made for classic lists.
 
