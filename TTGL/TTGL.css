@@ -1,10 +1,17 @@
 /*
+Tengen Toppa Gurren Lagann
+by erlbaum & Shishio-kun
+*/
+
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
+
+/*
 MAIN BACKGROUND BEHIND YOKO
 */
 body {
 background-attachment: fixed;
 background-color: black;
-background-image: url("http://i45.tinypic.com/1j3rb9.jpg");
+background-image: url(https://i.imgur.com/zpfOJ4t.jpg) /* background.jpg */;
 background-position: right top;
 background-repeat: no-repeat;
 background-size: cover;
@@ -14,7 +21,7 @@ background-size: cover;
 YOKO RENDERS
 */
 .header_cw {
-background-image: url("http://i.imgur.com/5IStHhf.png");
+background-image: url(https://cdn.imgchest.com/files/e4gdcxg22v4.png) /* render_watching.png */;
 background-attachment: fixed;
 background-clip: border-box;
 background-color: transparent;
@@ -30,7 +37,7 @@ width: 2000px;
 z-index: -1;
 }
 .header_completed {
-background: url("http://i.imgur.com/vqakXv9.png") no-repeat fixed right top transparent;
+background: url(https://cdn.imgchest.com/files/my8xcnzxxv4.png) /* render_completed.png */ no-repeat fixed right top transparent;
 background-attachment: fixed;
 background-clip: border-box;
 background-color: transparent;
@@ -46,7 +53,7 @@ width: 2000px;
 z-index: -1;
 }
 .header_onhold {
-background-image: url("http://i.imgur.com/1dr3rKg.png");
+background-image: url(https://cdn.imgchest.com/files/84apc5rzzn4.png) /* render_onhold.png */;
 background-attachment: fixed;
 background-clip: border-box;
 background-color: transparent;
@@ -62,7 +69,7 @@ width: 2000px;
 z-index: -1;
 }
 .header_dropped {
-background: url("http://i.imgur.com/G5Vvcvi.png") no-repeat fixed right top transparent;
+background: url(https://cdn.imgchest.com/files/345xcvbzzg7.png) /* render_dropped.png */ no-repeat fixed right top transparent;
 background-attachment: fixed;
 background-clip: border-box;
 background-color: transparent;
@@ -78,7 +85,7 @@ width: 2000px;
 z-index: -1;
 }
 .header_ptw {
-background: url("http://i.imgur.com/a28LxjP.png") no-repeat fixed right bottom transparent;
+background: url(https://cdn.imgchest.com/files/k46acqrook7.png) /* render_planned.png */ no-repeat fixed right bottom transparent;
 background-attachment: fixed;
 background-clip: border-box;
 background-color: transparent;
@@ -98,7 +105,7 @@ z-index: -1;
 BOTTOM FADE
 */
 #inlineContent {
-background-image: url("http://i39.tinypic.com/2exr03p.png");
+background-image: url(https://i.imgur.com/LnsiMKZ.png) /* gradient.png */;
 background-position: center center;
 background-repeat: repeat-x;
 bottom: 0;
@@ -213,7 +220,7 @@ margin: 0 auto;
 text-align: center;
 }
 .td1:hover, .td2:hover {
-background: url("http://i42.tinypic.com/snktjs.png") repeat scroll 0 0 transparent;
+background: url(https://i.imgur.com/hDMV8BS.png) /* row.png */ repeat scroll 0 0 transparent;
 }
 .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
 background: none repeat scroll 0 0 tan;
@@ -225,13 +232,13 @@ TOP MENU BAR BACKGROUND
 */
 #mal_control_strip
 {
-background: url(http://img15.imageshack.us/img15/228/frame6518.png) fixed top left !important;
+background: url(https://i.imgur.com/41syxVn.png) /* header.png */ fixed top left !important;
 }
 /*
 CUSTOM CURSOR
 */
 * {
-cursor: url("http://i43.tinypic.com/2r5uhsl.jpg") 1 2, auto;
+cursor: url(https://i.imgur.com/Ehwjri6.png) /* cusor.png */ 1 2, auto;
 }
 
 #mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
